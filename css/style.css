@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Biru langit muda */
+    color: #003366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    width: 500px;
+    box-shadow: 0 0 15px rgba(0, 102, 204, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0066cc;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group button {
+    padding: 10px;
+    border: 1px solid #b3e5fc;
+    border-radius: 6px;
+}
+
+#todo-input {
+    flex: 1;
+}
+
+#add-btn {
+    background-color: #4fc3f7;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#add-btn:hover {
+    background-color: #29b6f6;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.action-buttons button {
+    background-color: #4fc3f7;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.action-buttons button:hover {
+    background-color: #29b6f6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f1f8ff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #bbdefb;
+}
+
+table th {
+    background-color: #90caf9;
+    color: #003366;
+}
+
+table tr:nth-child(even) {
+    background-color: #e3f2fd;
+}
+
+button.delete-btn {
+    background: #ef5350;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+button.delete-btn:hover {
+    background: #e53935;
+}
+
+button.complete-btn {
+    background: #66bb6a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+button.complete-btn:hover {
+    background: #43a047;
+}
